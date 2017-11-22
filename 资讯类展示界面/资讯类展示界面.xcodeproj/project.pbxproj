@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		C420C9291FC3F68A00743976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4875E691FC2B562001FA4FA /* Assets.xcassets */; };
+		C430AABC1FC57B5500DAE495 /* KLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AABB1FC57B5500DAE495 /* KLTabBar.m */; };
+		C430AABD1FC57B5500DAE495 /* KLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AABB1FC57B5500DAE495 /* KLTabBar.m */; };
+		C430AAC11FC57FC000DAE495 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AAC01FC57FC000DAE495 /* UIView+frame.m */; };
+		C430AAC21FC57FC000DAE495 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AAC01FC57FC000DAE495 /* UIView+frame.m */; };
 		C46B08591FC42B5E00F031C7 /* EssenceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B08581FC42B5E00F031C7 /* EssenceDetailViewController.m */; };
 		C46B085D1FC42E7A00F031C7 /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B085C1FC42E7A00F031C7 /* UIBarButtonItem+item.m */; };
 		C47C9B2C1FC3CF400010F661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4875E6F1FC2B562001FA4FA /* main.m */; };
@@ -35,17 +39,18 @@
 		C4F3C1161FC5580000779778 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47C9B2F1FC3D3310010F661 /* LaunchScreen.storyboard */; };
 		C4F3C1171FC5580000779778 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4875E691FC2B562001FA4FA /* Assets.xcassets */; };
 		C4F3C1181FC5580000779778 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47C9B311FC3D3310010F661 /* Main.storyboard */; };
-		C4F3C1211FC5668B00779778 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3C1201FC5668B00779778 /* NavigationInteractiveTransition.m */; };
-		C4F3C1221FC5668B00779778 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3C1201FC5668B00779778 /* NavigationInteractiveTransition.m */; };
-		C4F3C1251FC5676800779778 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3C1241FC5676800779778 /* PopAnimation.m */; };
-		C4F3C1261FC5676800779778 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F3C1241FC5676800779778 /* PopAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C430AABA1FC57B5500DAE495 /* KLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTabBar.h; sourceTree = "<group>"; };
+		C430AABB1FC57B5500DAE495 /* KLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTabBar.m; sourceTree = "<group>"; };
+		C430AABF1FC57FC000DAE495 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		C430AAC01FC57FC000DAE495 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
 		C46B08571FC42B5E00F031C7 /* EssenceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceDetailViewController.h; sourceTree = "<group>"; };
 		C46B08581FC42B5E00F031C7 /* EssenceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceDetailViewController.m; sourceTree = "<group>"; };
 		C46B085B1FC42E7A00F031C7 /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
 		C46B085C1FC42E7A00F031C7 /* UIBarButtonItem+item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+item.m"; sourceTree = "<group>"; };
+		C47550761FC583D90066DB19 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C47C9B301FC3D3310010F661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C47C9B321FC3D3310010F661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4875E4B1FC2A4E4001FA4FA /* 资讯类展示界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "资讯类展示界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,10 +74,6 @@
 		C4875E951FC2B926001FA4FA /* KLTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLTabBarController.h; sourceTree = "<group>"; };
 		C4875E961FC2B926001FA4FA /* KLTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLTabBarController.m; sourceTree = "<group>"; };
 		C4F3C11C1FC5580000779778 /* PanPop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanPop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C4F3C11F1FC5668B00779778 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
-		C4F3C1201FC5668B00779778 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
-		C4F3C1231FC5676800779778 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
-		C4F3C1241FC5676800779778 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C430AABE1FC57F8E00DAE495 /* Catogory */ = {
+			isa = PBXGroup;
+			children = (
+				C430AABF1FC57FC000DAE495 /* UIView+frame.h */,
+				C430AAC01FC57FC000DAE495 /* UIView+frame.m */,
+			);
+			path = Catogory;
+			sourceTree = "<group>";
+		};
 		C4875E421FC2A4E4001FA4FA = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +180,7 @@
 				C4875E691FC2B562001FA4FA /* Assets.xcassets */,
 				C4875E6E1FC2B562001FA4FA /* Info.plist */,
 				C4875E6F1FC2B562001FA4FA /* main.m */,
+				C47550761FC583D90066DB19 /* PrefixHeader.pch */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -316,6 +327,7 @@
 		C4875E901FC2B888001FA4FA /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				C430AABE1FC57F8E00DAE495 /* Catogory */,
 				C4875E911FC2B888001FA4FA /* UI */,
 				C4F3C11E1FC5666D00779778 /* Tools */,
 			);
@@ -331,6 +343,8 @@
 				C4875E961FC2B926001FA4FA /* KLTabBarController.m */,
 				C46B085B1FC42E7A00F031C7 /* UIBarButtonItem+item.h */,
 				C46B085C1FC42E7A00F031C7 /* UIBarButtonItem+item.m */,
+				C430AABA1FC57B5500DAE495 /* KLTabBar.h */,
+				C430AABB1FC57B5500DAE495 /* KLTabBar.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -338,10 +352,6 @@
 		C4F3C11E1FC5666D00779778 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				C4F3C1231FC5676800779778 /* PopAnimation.h */,
-				C4F3C1241FC5676800779778 /* PopAnimation.m */,
-				C4F3C11F1FC5668B00779778 /* NavigationInteractiveTransition.h */,
-				C4F3C1201FC5668B00779778 /* NavigationInteractiveTransition.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -448,11 +458,11 @@
 				C46B08591FC42B5E00F031C7 /* EssenceDetailViewController.m in Sources */,
 				C47C9B2E1FC3D12D0010F661 /* AppDelegate.m in Sources */,
 				C47C9B2C1FC3CF400010F661 /* main.m in Sources */,
-				C4F3C1211FC5668B00779778 /* NavigationInteractiveTransition.m in Sources */,
+				C430AAC11FC57FC000DAE495 /* UIView+frame.m in Sources */,
+				C430AABC1FC57B5500DAE495 /* KLTabBar.m in Sources */,
 				C4875E8F1FC2B77E001FA4FA /* MeViewController.m in Sources */,
 				C4875E8C1FC2B770001FA4FA /* FrendTrendViewController.m in Sources */,
 				C4875E891FC2B726001FA4FA /* PublishViewController.m in Sources */,
-				C4F3C1251FC5676800779778 /* PopAnimation.m in Sources */,
 				C46B085D1FC42E7A00F031C7 /* UIBarButtonItem+item.m in Sources */,
 				C4875E861FC2B714001FA4FA /* NewViewController.m in Sources */,
 				C4875E941FC2B8B5001FA4FA /* KLNavigationViewController.m in Sources */,
@@ -468,11 +478,11 @@
 				C4F3C1091FC5580000779778 /* EssenceDetailViewController.m in Sources */,
 				C4F3C10A1FC5580000779778 /* AppDelegate.m in Sources */,
 				C4F3C10B1FC5580000779778 /* main.m in Sources */,
-				C4F3C1221FC5668B00779778 /* NavigationInteractiveTransition.m in Sources */,
+				C430AAC21FC57FC000DAE495 /* UIView+frame.m in Sources */,
+				C430AABD1FC57B5500DAE495 /* KLTabBar.m in Sources */,
 				C4F3C10C1FC5580000779778 /* MeViewController.m in Sources */,
 				C4F3C10D1FC5580000779778 /* FrendTrendViewController.m in Sources */,
 				C4F3C10E1FC5580000779778 /* PublishViewController.m in Sources */,
-				C4F3C1261FC5676800779778 /* PopAnimation.m in Sources */,
 				C4F3C10F1FC5580000779778 /* UIBarButtonItem+item.m in Sources */,
 				C4F3C1101FC5580000779778 /* NewViewController.m in Sources */,
 				C4F3C1111FC5580000779778 /* KLNavigationViewController.m in Sources */,
@@ -614,6 +624,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = KLLaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DB9K56RAA;
+				GCC_PREFIX_HEADER = "资讯类展示界面/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "资讯类展示界面/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -631,6 +642,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = KLLaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7DB9K56RAA;
+				GCC_PREFIX_HEADER = "资讯类展示界面/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "资讯类展示界面/Other/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

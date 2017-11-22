@@ -8,10 +8,8 @@
 
 #import "KLNavigationViewController.h"
 #import "UIBarButtonItem+item.h"
-#import "NavigationInteractiveTransition.h"
 
 @interface KLNavigationViewController ()<UIGestureRecognizerDelegate>
-@property (nonatomic, strong) NavigationInteractiveTransition *navT;
 
 @end
 
@@ -24,7 +22,6 @@
     pan.delegate = self;
     [self.view addGestureRecognizer:pan];
 
-#if POP1
     self.view.backgroundColor = [UIColor whiteColor];
 
     static dispatch_once_t onceToken;
@@ -54,11 +51,6 @@
         
         [pan addTarget:navigationInteractiveTransition action:handleTransition];
     });
-#elif POP2
-    self.view.backgroundColor = [UIColor redColor];
-    _navT = [[NavigationInteractiveTransition alloc] initWithViewController:self];
-    [pan addTarget:_navT action:@selector(handleControllerPop:)];
-#endif
     
 }
 

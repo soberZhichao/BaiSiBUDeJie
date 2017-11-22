@@ -13,6 +13,7 @@
 #import "FrendTrendViewController.h"
 #import "MeViewController.h"
 #import "KLNavigationViewController.h"
+#import "KLTabBar.h"
 
 @interface KLTabBarController ()
 
@@ -23,8 +24,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    /**
+     *  子控制器
+     */
     [self addChildVC];
+    /**
+     *  item排布
+     */
     [self setUpTabBarStyle];
+    /**
+     *  item样式
+     */
+    [self setUpTabBarItemStyle];
+}
+
+- (void)setUpTabBarStyle
+{
+    KLTabBar *tabbar = [[KLTabBar alloc] init];
+    [self setValue:tabbar forKey:@"tabBar"];
 }
 
 - (void)addChildVC
@@ -44,8 +61,9 @@
     }
 }
 
-- (void)setUpTabBarStyle
+- (void)setUpTabBarItemStyle
 {
+    
     NSArray *tabBarTitle = @[@"精华", @"新帖", @"关注", @"我"];
     NSArray *tabBarImage = @[@"tabBar_essence_icon", @"tabBar_new_icon", @"tabBar_friendTrends_icon", @"tabBar_me_icon"];
     NSArray *tabBarImageClick = @[@"tabBar_essence_click_icon", @"tabBar_new_click_icon", @"tabBar_friendTrends_click_icon", @"tabBar_me_click_icon"];
@@ -55,6 +73,7 @@
         [self setUpTitleStyle:tabBarTitle[i] ChildNavigationVC:self.childViewControllers[i]];
         [self setUpImageStyle:tabBarImage[i] ClickImage:tabBarImageClick[i] ChildNavigationVC:self.childViewControllers[i]];
     }
+    
     
     /**
      *  TabBarItem 样式
