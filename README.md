@@ -1,4 +1,4 @@
 # BaiSiBUDeJie
 资讯类app主流框架
-![image](/Users/sober/Desktop/Git/BaiSi/演示图片/pop.gif)
+![image](https://github.com/soberZhichao/BaiSiBUDeJie/blob/master/演示图片/pop.gif)
 
