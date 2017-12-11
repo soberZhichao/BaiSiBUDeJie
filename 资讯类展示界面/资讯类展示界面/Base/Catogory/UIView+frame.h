@@ -34,5 +34,13 @@
  *  view CenterY
  */
 @property (nonatomic, assign) CGFloat KL_centerY;
+/**
+ *  view contentOffsetX
+ */
+@property (nonatomic, assign) CGFloat KL_contentOffsetX;
+/**
+ *  view contentOffsetY
+ */
+@property (nonatomic, assign) CGFloat KL_contentOffsetY;
 
 @end

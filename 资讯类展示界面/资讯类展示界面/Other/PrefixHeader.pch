@@ -9,5 +9,21 @@
 #ifdef __OBJC__
 
 #import "UIView+frame.h"
+#import "UIView+animation.h"
+#import "UIScrollView+category.h"
+#import "KLConst.h"
+
+#define KLSCREENW [UIScreen mainScreen].bounds.size.width
+#define KLSCREENH [UIScreen mainScreen].bounds.size.height
+
+#define Func NSLog(@"%s", __func__);
+
+#ifndef    Weak
+#if __has_feature(objc_arc)
+#define Weak(object) __weak __typeof__(object) weak##object = object;
+#else
+#define Weak(object) autoreleasepool{} __block __typeof__(object) block##object = object;
+#endif
+#endif
 
 #endif

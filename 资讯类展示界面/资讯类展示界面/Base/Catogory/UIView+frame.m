@@ -40,6 +40,18 @@
     return self.center.y;
 }
 
+- (CGFloat)KL_contentOffsetX
+{
+    UIScrollView *scrollV = (UIScrollView *)self;
+    return scrollV.contentOffset.x;
+}
+
+- (CGFloat)KL_contentOffsetY
+{
+    UIScrollView *scrollV = (UIScrollView *)self;
+    return scrollV.contentOffset.y;
+}
+
 - (void)setKL_width:(CGFloat)KL_width
 {
     CGRect rect = self.frame;
@@ -80,6 +92,28 @@
     CGPoint rect = self.center;
     rect.y = KL_centerY;
     self.center = rect;
+}
+
+- (void)setKL_ContentOffsetX:(CGFloat)contentOffsetX
+{
+    if ([self isKindOfClass:[UIScrollView class]])
+    {
+        UIScrollView *scroll = (UIScrollView *)self;
+        CGPoint point = scroll.contentOffset;
+        point.x = contentOffsetX;
+        scroll.contentOffset = point;
+    }
+}
+
+- (void)setKL_ContentOffsetY:(CGFloat)contentOffsetY
+{
+    if ([self isKindOfClass:[UIScrollView class]])
+    {
+        UIScrollView *scroll = (UIScrollView *)self;
+        CGPoint point = scroll.contentOffset;
+        point.y = contentOffsetY;
+        scroll.contentOffset = point;
+    }
 }
 
 @end
