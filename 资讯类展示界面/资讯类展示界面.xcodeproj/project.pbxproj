@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AFC79CDE157ABFC0F038BB33 /* libPods-资讯类展示界面.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE739E33C179E66968F52C46 /* libPods-资讯类展示界面.a */; };
 		C420C9291FC3F68A00743976 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4875E691FC2B562001FA4FA /* Assets.xcassets */; };
 		C428E69A1FD92FC100F8DAC3 /* UIView+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C428E6991FD92FC100F8DAC3 /* UIView+animation.m */; };
 		C428E69B1FD92FC100F8DAC3 /* UIView+animation.m in Sources */ = {isa = PBXBuildFile; fileRef = C428E6991FD92FC100F8DAC3 /* UIView+animation.m */; };
@@ -17,6 +18,12 @@
 		C430AAC11FC57FC000DAE495 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AAC01FC57FC000DAE495 /* UIView+frame.m */; };
 		C430AAC21FC57FC000DAE495 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = C430AAC01FC57FC000DAE495 /* UIView+frame.m */; };
 		C46B08591FC42B5E00F031C7 /* EssenceDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C46B08581FC42B5E00F031C7 /* EssenceDetailViewController.m */; };
+		C47AB86C1FDFAF28000459E6 /* TopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB8681FDFAECF000459E6 /* TopicTitleView.m */; };
+		C47AB86D1FDFAF29000459E6 /* TopicTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB8681FDFAECF000459E6 /* TopicTitleView.m */; };
+		C47AB86E1FDFAF2C000459E6 /* KLOnlyTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB86B1FDFAECF000459E6 /* KLOnlyTextTableViewCell.m */; };
+		C47AB86F1FDFAF2D000459E6 /* KLOnlyTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB86B1FDFAECF000459E6 /* KLOnlyTextTableViewCell.m */; };
+		C47AB8721FDFD422000459E6 /* KLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB8711FDFD422000459E6 /* KLLabel.m */; };
+		C47AB8731FDFD422000459E6 /* KLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C47AB8711FDFD422000459E6 /* KLLabel.m */; };
 		C47C9B2C1FC3CF400010F661 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C4875E6F1FC2B562001FA4FA /* main.m */; };
 		C47C9B2E1FC3D12D0010F661 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C4875E4F1FC2A4E4001FA4FA /* AppDelegate.m */; };
 		C47C9B331FC3D3310010F661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C47C9B2F1FC3D3310010F661 /* LaunchScreen.storyboard */; };
@@ -40,8 +47,6 @@
 		C4A1BF821FCFFD3F00C8DAE0 /* KLVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF741FCFFD3F00C8DAE0 /* KLVoiceViewController.m */; };
 		C4A1BF831FCFFD3F00C8DAE0 /* KLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF761FCFFD3F00C8DAE0 /* KLWordViewController.m */; };
 		C4A1BF841FCFFD3F00C8DAE0 /* KLWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF761FCFFD3F00C8DAE0 /* KLWordViewController.m */; };
-		C4A1BF871FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF861FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m */; };
-		C4A1BF881FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C4A1BF861FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m */; };
 		C4B9CFDE1FDE8098003433BF /* UIScrollView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B9CFDD1FDE8098003433BF /* UIScrollView+category.m */; };
 		C4B9CFDF1FDE8098003433BF /* UIScrollView+category.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B9CFDD1FDE8098003433BF /* UIScrollView+category.m */; };
 		C4B9CFE21FDE82BA003433BF /* UIBarButtonItem+item.m in Sources */ = {isa = PBXBuildFile; fileRef = C4B9CFE11FDE82BA003433BF /* UIBarButtonItem+item.m */; };
@@ -68,6 +73,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B24A00D0622F5A81F2A3F81 /* Pods-资讯类展示界面.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-资讯类展示界面.debug.xcconfig"; path = "Pods/Target Support Files/Pods-资讯类展示界面/Pods-资讯类展示界面.debug.xcconfig"; sourceTree = "<group>"; };
+		4CD2B030D89CD3994537EE60 /* Pods-资讯类展示界面.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-资讯类展示界面.release.xcconfig"; path = "Pods/Target Support Files/Pods-资讯类展示界面/Pods-资讯类展示界面.release.xcconfig"; sourceTree = "<group>"; };
 		C428E6981FD92FC100F8DAC3 /* UIView+animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+animation.h"; sourceTree = "<group>"; };
 		C428E6991FD92FC100F8DAC3 /* UIView+animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+animation.m"; sourceTree = "<group>"; };
 		C42F914F1FCD615F0007971C /* KLConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLConst.h; sourceTree = "<group>"; };
@@ -79,6 +86,12 @@
 		C46B08571FC42B5E00F031C7 /* EssenceDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceDetailViewController.h; sourceTree = "<group>"; };
 		C46B08581FC42B5E00F031C7 /* EssenceDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceDetailViewController.m; sourceTree = "<group>"; };
 		C47550761FC583D90066DB19 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C47AB8671FDFAECF000459E6 /* TopicTitleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicTitleView.h; sourceTree = "<group>"; };
+		C47AB8681FDFAECF000459E6 /* TopicTitleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicTitleView.m; sourceTree = "<group>"; };
+		C47AB86A1FDFAECF000459E6 /* KLOnlyTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLOnlyTextTableViewCell.h; sourceTree = "<group>"; };
+		C47AB86B1FDFAECF000459E6 /* KLOnlyTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLOnlyTextTableViewCell.m; sourceTree = "<group>"; };
+		C47AB8701FDFD422000459E6 /* KLLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KLLabel.h; sourceTree = "<group>"; };
+		C47AB8711FDFD422000459E6 /* KLLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLLabel.m; sourceTree = "<group>"; };
 		C47C9B301FC3D3310010F661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C47C9B321FC3D3310010F661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C4875E4B1FC2A4E4001FA4FA /* 资讯类展示界面.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "资讯类展示界面.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -113,8 +126,6 @@
 		C4A1BF741FCFFD3F00C8DAE0 /* KLVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLVoiceViewController.m; sourceTree = "<group>"; };
 		C4A1BF751FCFFD3F00C8DAE0 /* KLWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLWordViewController.h; sourceTree = "<group>"; };
 		C4A1BF761FCFFD3F00C8DAE0 /* KLWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLWordViewController.m; sourceTree = "<group>"; };
-		C4A1BF851FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLOnlyTextTableViewCell.h; sourceTree = "<group>"; };
-		C4A1BF861FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLOnlyTextTableViewCell.m; sourceTree = "<group>"; };
 		C4B9CFDC1FDE8098003433BF /* UIScrollView+category.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+category.h"; sourceTree = "<group>"; };
 		C4B9CFDD1FDE8098003433BF /* UIScrollView+category.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+category.m"; sourceTree = "<group>"; };
 		C4B9CFE01FDE82BA003433BF /* UIBarButtonItem+item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+item.h"; sourceTree = "<group>"; };
@@ -125,6 +136,7 @@
 		C4E027A61FDA6E130055557E /* TopicChildView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicChildView.m; sourceTree = "<group>"; };
 		C4E027A91FDA72060055557E /* EssenceViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EssenceViewController.xib; sourceTree = "<group>"; };
 		C4F3C11C1FC5580000779778 /* PanPop2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PanPop2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE739E33C179E66968F52C46 /* libPods-资讯类展示界面.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-资讯类展示界面.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +144,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFC79CDE157ABFC0F038BB33 /* libPods-资讯类展示界面.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +158,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52334930AC42BB74C7422788 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE739E33C179E66968F52C46 /* libPods-资讯类展示界面.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A0A09C871114E0DC0501EE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B24A00D0622F5A81F2A3F81 /* Pods-资讯类展示界面.debug.xcconfig */,
+				4CD2B030D89CD3994537EE60 /* Pods-资讯类展示界面.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C430AABE1FC57F8E00DAE495 /* Catogory */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,11 +190,31 @@
 			path = Catogory;
 			sourceTree = "<group>";
 		};
+		C47AB8661FDFAECF000459E6 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				C47AB8671FDFAECF000459E6 /* TopicTitleView.h */,
+				C47AB8681FDFAECF000459E6 /* TopicTitleView.m */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		C47AB8691FDFAECF000459E6 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				C47AB86A1FDFAECF000459E6 /* KLOnlyTextTableViewCell.h */,
+				C47AB86B1FDFAECF000459E6 /* KLOnlyTextTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		C4875E421FC2A4E4001FA4FA = {
 			isa = PBXGroup;
 			children = (
 				C4875E4D1FC2A4E4001FA4FA /* 资讯类展示界面 */,
 				C4875E4C1FC2A4E4001FA4FA /* Products */,
+				9A0A09C871114E0DC0501EE6 /* Pods */,
+				52334930AC42BB74C7422788 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -408,6 +458,8 @@
 				C4875E961FC2B926001FA4FA /* KLTabBarController.m */,
 				C430AABA1FC57B5500DAE495 /* KLTabBar.h */,
 				C430AABB1FC57B5500DAE495 /* KLTabBar.m */,
+				C47AB8701FDFD422000459E6 /* KLLabel.h */,
+				C47AB8711FDFD422000459E6 /* KLLabel.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -441,8 +493,8 @@
 		C4A1BF781FCFFD3F00C8DAE0 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				C4A1BF851FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.h */,
-				C4A1BF861FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m */,
+				C47AB8691FDFAECF000459E6 /* Cell */,
+				C47AB8661FDFAECF000459E6 /* ContentView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -471,9 +523,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C4875E611FC2A4E4001FA4FA /* Build configuration list for PBXNativeTarget "资讯类展示界面" */;
 			buildPhases = (
+				89E1720254FE3B5E920EC961 /* [CP] Check Pods Manifest.lock */,
 				C4875E471FC2A4E4001FA4FA /* Sources */,
 				C4875E481FC2A4E4001FA4FA /* Frameworks */,
 				C4875E491FC2A4E4001FA4FA /* Resources */,
+				13C08873EC7D460B1B400A49 /* [CP] Embed Pods Frameworks */,
+				8E6F4CD730806CF0085EA32B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -563,6 +618,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		13C08873EC7D460B1B400A49 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-资讯类展示界面/Pods-资讯类展示界面-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89E1720254FE3B5E920EC961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-资讯类展示界面-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E6F4CD730806CF0085EA32B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-资讯类展示界面/Pods-资讯类展示界面-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C4875E471FC2A4E4001FA4FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -575,7 +681,9 @@
 				C4A1BF811FCFFD3F00C8DAE0 /* KLVoiceViewController.m in Sources */,
 				C47C9B2C1FC3CF400010F661 /* main.m in Sources */,
 				C430AAC11FC57FC000DAE495 /* UIView+frame.m in Sources */,
+				C47AB86E1FDFAF2C000459E6 /* KLOnlyTextTableViewCell.m in Sources */,
 				C4B9CFDE1FDE8098003433BF /* UIScrollView+category.m in Sources */,
+				C47AB8721FDFD422000459E6 /* KLLabel.m in Sources */,
 				C42F91511FCD615F0007971C /* KLConst.m in Sources */,
 				C4A1BF7B1FCFFD3F00C8DAE0 /* KLPictureViewController.m in Sources */,
 				C428E69A1FD92FC100F8DAC3 /* UIView+animation.m in Sources */,
@@ -585,7 +693,6 @@
 				C4875E8F1FC2B77E001FA4FA /* MeViewController.m in Sources */,
 				C4875E8C1FC2B770001FA4FA /* FrendTrendViewController.m in Sources */,
 				C4875E891FC2B726001FA4FA /* PublishViewController.m in Sources */,
-				C4A1BF871FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m in Sources */,
 				C4A1BF7D1FCFFD3F00C8DAE0 /* KLTopicViewController.m in Sources */,
 				C4E027A71FDA6E130055557E /* TopicChildView.m in Sources */,
 				C4E027A31FDA6DE80055557E /* TopicBarView.m in Sources */,
@@ -593,6 +700,7 @@
 				C4875E941FC2B8B5001FA4FA /* KLNavigationViewController.m in Sources */,
 				C4875E971FC2B926001FA4FA /* KLTabBarController.m in Sources */,
 				C4875E831FC2B603001FA4FA /* EssenceViewController.m in Sources */,
+				C47AB86C1FDFAF28000459E6 /* TopicTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +715,9 @@
 				C4A1BF821FCFFD3F00C8DAE0 /* KLVoiceViewController.m in Sources */,
 				C4F3C10B1FC5580000779778 /* main.m in Sources */,
 				C430AAC21FC57FC000DAE495 /* UIView+frame.m in Sources */,
+				C47AB86F1FDFAF2D000459E6 /* KLOnlyTextTableViewCell.m in Sources */,
 				C4B9CFDF1FDE8098003433BF /* UIScrollView+category.m in Sources */,
+				C47AB8731FDFD422000459E6 /* KLLabel.m in Sources */,
 				C42F91521FCD615F0007971C /* KLConst.m in Sources */,
 				C4A1BF7C1FCFFD3F00C8DAE0 /* KLPictureViewController.m in Sources */,
 				C428E69B1FD92FC100F8DAC3 /* UIView+animation.m in Sources */,
@@ -617,7 +727,6 @@
 				C4F3C10C1FC5580000779778 /* MeViewController.m in Sources */,
 				C4F3C10D1FC5580000779778 /* FrendTrendViewController.m in Sources */,
 				C4F3C10E1FC5580000779778 /* PublishViewController.m in Sources */,
-				C4A1BF881FCFFD8700C8DAE0 /* KLOnlyTextTableViewCell.m in Sources */,
 				C4A1BF7E1FCFFD3F00C8DAE0 /* KLTopicViewController.m in Sources */,
 				C4E027A81FDA6E130055557E /* TopicChildView.m in Sources */,
 				C4E027A41FDA6DE80055557E /* TopicBarView.m in Sources */,
@@ -625,6 +734,7 @@
 				C4F3C1111FC5580000779778 /* KLNavigationViewController.m in Sources */,
 				C4F3C1121FC5580000779778 /* KLTabBarController.m in Sources */,
 				C4F3C1131FC5580000779778 /* EssenceViewController.m in Sources */,
+				C47AB86D1FDFAF29000459E6 /* TopicTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -756,6 +866,7 @@
 		};
 		C4875E621FC2A4E4001FA4FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B24A00D0622F5A81F2A3F81 /* Pods-资讯类展示界面.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = KLLaunchImage;
@@ -774,6 +885,7 @@
 		};
 		C4875E631FC2A4E4001FA4FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CD2B030D89CD3994537EE60 /* Pods-资讯类展示界面.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = KLLaunchImage;

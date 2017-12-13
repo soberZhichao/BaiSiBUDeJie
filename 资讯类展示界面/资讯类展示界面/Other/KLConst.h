@@ -12,3 +12,5 @@ UIKIT_EXTERN CGFloat const KL_NavBarH;
 UIKIT_EXTERN CGFloat const KL_TabBarH;
 
 UIKIT_EXTERN CGFloat const KL_TopicBarH;
+
+UIKIT_EXTERN CGFloat const KL_TopicTitleViewH;

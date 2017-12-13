@@ -13,8 +13,10 @@
 #import "UIScrollView+category.h"
 #import "KLConst.h"
 
-#define KLSCREENW [UIScreen mainScreen].bounds.size.width
-#define KLSCREENH [UIScreen mainScreen].bounds.size.height
+#import <Masonry/Masonry.h>
+
+#define KL_SCREENW [UIScreen mainScreen].bounds.size.width
+#define KL_SCREENH [UIScreen mainScreen].bounds.size.height
 
 #define Func NSLog(@"%s", __func__);
 

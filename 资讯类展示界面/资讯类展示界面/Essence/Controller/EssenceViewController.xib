@@ -52,10 +52,11 @@
                     </connections>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9fc-qz-XSp" customClass="TopicBarView">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                    <rect key="frame" x="0.0" y="120" width="375" height="40"/>
                     <subviews>
                         <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFJ-Ht-UUi">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="40"/>
+                            <color key="backgroundColor" red="1" green="0.64823634029999999" blue="0.50460316370000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <outlet property="delegate" destination="9fc-qz-XSp" id="0pv-CH-ENr"/>
                             </connections>
@@ -69,6 +70,7 @@
                         <constraint firstAttribute="height" constant="40" id="Wzy-n7-fAn"/>
                         <constraint firstItem="mFJ-Ht-UUi" firstAttribute="top" secondItem="9fc-qz-XSp" secondAttribute="top" id="l1z-6M-IGP"/>
                     </constraints>
+                    <viewLayoutGuide key="safeArea" id="Rom-DL-la8"/>
                     <connections>
                         <outlet property="topicBarScrollView" destination="mFJ-Ht-UUi" id="hkR-ld-Wc4"/>
                     </connections>
@@ -80,7 +82,7 @@
                 <constraint firstItem="wMI-hf-IhK" firstAttribute="top" secondItem="Ob8-w0-dfF" secondAttribute="top" id="Fsu-Kb-dRe"/>
                 <constraint firstAttribute="trailing" secondItem="wMI-hf-IhK" secondAttribute="trailing" id="iEI-LH-cYR"/>
                 <constraint firstItem="9fc-qz-XSp" firstAttribute="leading" secondItem="Ob8-w0-dfF" secondAttribute="leading" id="nQw-ju-W9R"/>
-                <constraint firstItem="9fc-qz-XSp" firstAttribute="top" secondItem="Ob8-w0-dfF" secondAttribute="top" id="oXv-k7-qZM"/>
+                <constraint firstItem="9fc-qz-XSp" firstAttribute="top" secondItem="Ob8-w0-dfF" secondAttribute="top" constant="120" id="oXv-k7-qZM"/>
                 <constraint firstAttribute="trailing" secondItem="9fc-qz-XSp" secondAttribute="trailing" id="yBA-TZ-gu9"/>
                 <constraint firstItem="wMI-hf-IhK" firstAttribute="leading" secondItem="Ob8-w0-dfF" secondAttribute="leading" id="zCr-41-nWP"/>
             </constraints>

@@ -56,7 +56,7 @@
 - (void)setUpTopicBar
 {
     self.automaticallyAdjustsScrollViewInsets = NO;
-    
+    self.extendedLayoutIncludesOpaqueBars = YES;
     self.topicBarView.topicStringsArr = @[@"声音", @"全部消息", @"视频", @"图片", @"段子", @"声音", @"全部", @"视频", @"图片", @"段子"];
     __weak typeof(self) weakSelf = self;
     self.topicBarView.titleClickBlock = ^(NSInteger tag){
